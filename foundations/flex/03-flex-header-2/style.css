@@ -12,6 +12,8 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -27,6 +29,17 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 10px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
 }
 
 button {
@@ -37,12 +50,23 @@ button {
   padding: 8px 24px;
 }
 
+.notifications {
+  margin: 10px;
+}
+
+.profile-image {
+	margin: 10px;
+}
+
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  margin: 10px;
 }
 
 ul {
   list-style-type: none;
+  padding: 0px;
+  display: flex;
 }
